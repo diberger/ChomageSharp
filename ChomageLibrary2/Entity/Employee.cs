@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -39,11 +41,11 @@ namespace ChomageLibrary.Entity
         [Required]
         [Column("EMP_BIOGRAPHY")]
         public string Biography { get; set; }
-        
+
         public ICollection<Experience> Experiences { get; set; }
-        
+
         public ICollection<Formation> Formations { get; set; }
-        
+
         public ICollection<Postulation> Postulations { get; set; }
 
         public Employee(string firstName, string lastName, DateTime birthDate, int seniority, string biography)
@@ -57,7 +59,6 @@ namespace ChomageLibrary.Entity
 
         public Employee()
         {
-
         }
     }
 }

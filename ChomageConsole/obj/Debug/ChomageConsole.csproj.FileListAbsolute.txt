@@ -32,3 +32,6 @@ C:\Travail\ChomageLibrary\ChomageConsole\obj\Debug\ChomageConsole.csproj.CoreCom
 C:\Travail\ChomageLibrary\ChomageConsole\obj\Debug\ChomageConsole.csproj.CopyComplete
 C:\Travail\ChomageLibrary\ChomageConsole\obj\Debug\ChomageConsole.exe
 C:\Travail\ChomageLibrary\ChomageConsole\obj\Debug\ChomageConsole.pdb
+C:\Travail\ChomageLibrary\ChomageConsole\bin\Debug\BusinessLayer.dll
+C:\Travail\ChomageLibrary\ChomageConsole\bin\Debug\BusinessLayer.pdb
+C:\Travail\ChomageLibrary\ChomageConsole\bin\Debug\BusinessLayer.dll.config

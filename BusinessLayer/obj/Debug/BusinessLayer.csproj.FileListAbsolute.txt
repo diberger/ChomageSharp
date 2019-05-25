@@ -1,0 +1,17 @@
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\Database1.mdf
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\Database1_log.ldf
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\ChomageLibrary2.dll
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\ChomageLibrary2.pdb
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\ChomageLibrary2.dll.config
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Travail\ChomageLibrary\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Travail\ChomageLibrary\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Travail\ChomageLibrary\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Travail\ChomageLibrary\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Travail\ChomageLibrary\BusinessLayer\obj\Debug\BusinessLayer.pdb

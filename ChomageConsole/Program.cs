@@ -19,24 +19,42 @@ namespace ChomageConsole
 
         public static void TestEFAvecDataAnnotations()
         {
-            Console.WriteLine("...METHODDDEEE...");
-
-            // test du contexte avec data annotation
-            try
-            {
+            //try
+            //{
                 BusinessManager bm = BusinessManager.Instance;
 
-                Console.WriteLine("...CONTEXTE...");
+                Statut statut1 = new Statut { Label = "Ouvert" };
+                Employee employee1 = new Employee("Baptiste", "Andrieux", new DateTime(), 5, "JE DAB SI CA MARCHE");
+                Offer offer1 = new Offer { Title = "Livreur de Pizza", Description = "Défi les loi de la gravité, pour vous emmener vos délices", Salary = "100", Date = new DateTime(), Responsible = "Jean-Michel Amoitier", StatutId = statut1.Id };
+                Postulation postulation1 = new Postulation { EmployeeId = employee1.Id, OfferId = offer1.Id };
 
-                // ajout d'un nouveau client avec un compte
+                Statut statut2 = new Statut { Label = "Mi-Fermer, Mi-Ouvert" };
+                Employee employee2 = new Employee("Dimitri", "Berger", new DateTime(), 1, "Pourquoi la vie ?");
+                Offer offer2 = new Offer { Title = "Creamers", Description = "Une lettre de plus et vous en ferez des cauchemars", Salary = "5000", Date = new DateTime(), Responsible = "Anne Hultout", StatutId = statut2.Id };
+                Postulation postulation2 = new Postulation { EmployeeId = employee2.Id, OfferId = offer2.Id };
 
-                //bm.Employees.Add(new Employee("Baptiste", "Andrieux", new DateTime(), 5, "Rapide, court mais efficace"));
-                //Console.WriteLine("...AJOUTOUILLE...");
+                Statut statut3 = new Statut { Label = "Fermer" };
+                Employee employee3 = new Employee("David", "Lafarge", new DateTime(), 100, "WHHHHHHOUUUUAWWWW UN PORIGON Z EX ULTRA RARE !!!");
+                Offer offer3 = new Offer { Title = "Sourceur", Description = "Pas besoin d'argent, la nature vous suffit", Salary = "0", Date = new DateTime(), Responsible = "Alex Térieur", StatutId = statut3.Id };
+                Postulation postulation3 = new Postulation { EmployeeId = employee3.Id, OfferId = offer3.Id };
 
-                //contexteDA.SaveChanges();
-                //Console.WriteLine("...COUCOUILLE...");
-                //// lecture des clients
-                //List<Employee> employees = bm.GetAllEmployee;
+                bm.addStatut(statut1);
+                bm.addStatut(statut2);
+                bm.addStatut(statut3);
+
+                bm.addEmployee(employee1);
+                bm.addEmployee(employee2);
+                bm.addEmployee(employee3);
+
+                bm.addOffer(offer1);
+                bm.addOffer(offer2);
+                bm.addOffer(offer3);
+
+                bm.addPostulation(postulation1);
+                bm.addPostulation(postulation2);
+                bm.addPostulation(postulation3);
+
+                List<Employee> employees = bm.GetAllEmployee();
                 Console.WriteLine("Liste de mes clients avec DA : ");
                 foreach (Employee e in employees)
                 {
@@ -44,12 +62,12 @@ namespace ChomageConsole
                 }
                 Console.WriteLine("...Fin...");
 
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //    throw;
+            //}
 
         }
     }

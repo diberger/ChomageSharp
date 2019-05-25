@@ -32,5 +32,39 @@ namespace BusinessLayer
             EmployeeQuery eq = new EmployeeQuery(contexte);
             return eq.GetAll().ToList();
         }
+
+        public bool addEmployee(Employee employee)
+        {
+            contexte.Employees.Add(employee);
+            contexte.SaveChanges();
+            return true;
+        }
+
+        public List<Offer> GetAllOffer()
+        {
+            OfferQuery oq = new OfferQuery(contexte);
+            return oq.GetAll().ToList();
+        }
+
+        public bool addOffer(Offer offer)
+        {
+            contexte.Offers.Add(offer);
+            contexte.SaveChanges();
+            return true;
+        }
+
+        public bool addPostulation(Postulation postulation)
+        {
+            contexte.Postulations.Add(postulation);
+            contexte.SaveChanges();
+            return true;
+        }
+
+        public bool addStatut(Statut statut)
+        {
+            contexte.Statuts.Add(statut);
+            contexte.SaveChanges();
+            return true;
+        }
     }
 }

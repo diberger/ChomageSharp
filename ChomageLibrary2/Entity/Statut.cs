@@ -12,14 +12,14 @@ namespace ChomageLibrary.Entity
     public class Statut
     {
         [Key]
-        [Column("OFF_ID")]
+        [Column("STA_ID")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
 
         public int Id { get; set; }
 
         [StringLength(255)]
         [Required]
-        [Column("OFF_LABEL")]
+        [Column("STA_LABEL")]
         public string Label { get; set; }
 
         public ICollection<Offer> Offers { get; set; }
