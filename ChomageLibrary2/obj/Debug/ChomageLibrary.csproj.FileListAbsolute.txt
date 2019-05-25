@@ -1,0 +1,14 @@
+C:\Travail\ChomageLibrary\ChomageLibrary2\obj\Debug\ChomageLibrary.csprojAssemblyReference.cache
+C:\Travail\ChomageLibrary\ChomageLibrary2\obj\Debug\ChomageLibrary.csproj.CoreCompileInputs.cache
+C:\Travail\ChomageLibrary\ChomageLibrary2\obj\Debug\ChomageLibrary2.dll
+C:\Travail\ChomageLibrary\ChomageLibrary2\obj\Debug\ChomageLibrary2.pdb
+C:\Travail\ChomageLibrary\ChomageLibrary2\bin\Debug\Database1.mdf
+C:\Travail\ChomageLibrary\ChomageLibrary2\bin\Debug\Database1_log.ldf
+C:\Travail\ChomageLibrary\ChomageLibrary2\bin\Debug\ChomageLibrary2.dll.config
+C:\Travail\ChomageLibrary\ChomageLibrary2\bin\Debug\ChomageLibrary2.dll
+C:\Travail\ChomageLibrary\ChomageLibrary2\bin\Debug\ChomageLibrary2.pdb
+C:\Travail\ChomageLibrary\ChomageLibrary2\bin\Debug\EntityFramework.dll
+C:\Travail\ChomageLibrary\ChomageLibrary2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Travail\ChomageLibrary\ChomageLibrary2\bin\Debug\EntityFramework.xml
+C:\Travail\ChomageLibrary\ChomageLibrary2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Travail\ChomageLibrary\ChomageLibrary2\obj\Debug\ChomageLibrary.csproj.CopyComplete

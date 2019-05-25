@@ -1,0 +1,17 @@
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\ChomageTest1.dll
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\ChomageTest1.pdb
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\obj\Debug\ChomageTest1.csprojAssemblyReference.cache
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\obj\Debug\ChomageTest1.csproj.CoreCompileInputs.cache
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\obj\Debug\ChomageTest1.csproj.CopyComplete
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\obj\Debug\ChomageTest1.dll
+U:\Desktop\LW\CDiese\repos\ChomageLibrary\ChomageTest1\obj\Debug\ChomageTest1.pdb

@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ChomageLibrary.Entity
+{
+    [Table("APP_STATUT")]
+    public class Statut
+    {
+        [Key]
+        [Column("OFF_ID")]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
+        public int Id { get; set; }
+
+        [StringLength(255)]
+        [Required]
+        [Column("OFF_LABEL")]
+        public string Label { get; set; }
+
+        public ICollection<Offer> Offers { get; set; }
+    }
+}
