@@ -22,5 +22,13 @@ namespace BusinessLayer.Queries
         {
             return _contexte.Offers;
         }
+
+
+        public List<Employee> GetAllEmployeeOfSpecificOffer(int offerId)
+        {
+            List<Postulation> postulations = _contexte.Postulations.Where(p => p.OfferId == offerId).ToList();
+            int[] employeIds = postulations.Select(p => p.EmployeeId).ToArray();
+            return _contexte.Employees.Where(e => employeIds.Contains(e.Id)).ToList();
+        }
     }
 }

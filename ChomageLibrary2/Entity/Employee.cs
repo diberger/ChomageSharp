@@ -5,11 +5,13 @@ using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ChomageLibrary.Entity
 {
+    [DataContract]
     [Table("APP_EMPLOYEE")]
     public class Employee
     {
@@ -18,11 +20,13 @@ namespace ChomageLibrary.Entity
         [Column("EMP_ID")]
         public int Id { get; set; }
 
+        [DataMember]
         [StringLength(50)]
         [Required]
         [Column("EMP_FIRSTNAME")]
         public string FirstName { get; set; }
 
+        [DataMember]
         [StringLength(50)]
         [Required]
         [Column("EMP_LASTNAME")]

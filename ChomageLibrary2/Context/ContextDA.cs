@@ -12,8 +12,8 @@ namespace ChomageLibrary.Context
     {
         public ContextDA() : base("name=ChomageSharpDb")
         {
-            Database.SetInitializer<ContextDA>(new DropCreateDatabaseAlways<ContextDA>()); // strat 1
-            //Database.SetInitializer<ContextDA>(null); // strat 2 => rien faire
+            //Database.SetInitializer<ContextDA>(new DropCreateDatabaseAlways<ContextDA>()); // strat 1
+            Database.SetInitializer<ContextDA>(null); // strat 2 => rien faire
         }
 
         public DbSet<Employee> Employees { get; set; }

@@ -1,5 +1,3 @@
-C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\Database1.mdf
-C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\Database1_log.ldf
 C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\BusinessLayer.dll.config
 C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\BusinessLayer.dll
 C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\BusinessLayer.pdb
@@ -15,3 +13,5 @@ C:\Travail\ChomageLibrary\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompi
 C:\Travail\ChomageLibrary\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Travail\ChomageLibrary\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Travail\ChomageLibrary\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\BorelJamaisPresentDatabase.mdf
+C:\Travail\ChomageLibrary\BusinessLayer\bin\Debug\BorelJamaisPresentDatabase_log.ldf

@@ -16,17 +16,27 @@
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <TextBlock Grid.Column="0"  Grid.Row="0" Text="Titre : "></TextBlock>
-            <TextBlock Grid.Column="1"  Grid.Row="0" Text="{Binding Title}"></TextBlock>
-            <TextBlock Grid.Column="0"  Grid.Row="1" Text="Description : "></TextBlock>
-            <TextBlock Grid.Column="1"  Grid.Row="1" Text="{Binding Description}" TextWrapping="Wrap" ></TextBlock>
-            <TextBlock Grid.Column="0"  Grid.Row="2" Text="Salaire : "></TextBlock>
-            <TextBlock Grid.Column="1"  Grid.Row="2" Text="{Binding Salary}"></TextBlock>
+            <TextBlock Grid.Column="0"  Grid.Row="0" Text="Titre : " VerticalAlignment="Center"></TextBlock>
+            <TextBlock Grid.Column="1"  Grid.Row="0" Text="{Binding Title}" VerticalAlignment="Center"></TextBlock>
+            <TextBlock Grid.Column="0"  Grid.Row="1" Text="Description : " VerticalAlignment="Center"></TextBlock>
+            <TextBlock Grid.Column="1"  Grid.Row="1" Text="{Binding Description}" VerticalAlignment="Center" TextWrapping="Wrap" ></TextBlock>
+            <TextBlock Grid.Column="0"  Grid.Row="2" Text="Salaire : " VerticalAlignment="Center"></TextBlock>
+            <TextBox Grid.Column="1"  Grid.Row="2" Text="{Binding Salary}" VerticalAlignment="Center" Height="40" Width="90"></TextBox>
+            <Button Grid.Column="2"  Grid.Row="2" Height="40" Width="90" Command="{Binding EditOffer}">Enregistrer</Button>
         </Grid>
+        <ListView Grid.Column="0"  Grid.Row="3" Margin="5px" ItemsSource="{Binding Employees, UpdateSourceTrigger=PropertyChanged}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Nom de l'employé" DisplayMemberBinding="{Binding EmployeeName}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </UserControl>

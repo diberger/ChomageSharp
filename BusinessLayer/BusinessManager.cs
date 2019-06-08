@@ -46,6 +46,12 @@ namespace BusinessLayer
             return oq.GetAll().ToList();
         }
 
+        public List<Postulation> GetAllPostulation()
+        {
+            PostulationQuery pq = new PostulationQuery(contexte);
+            return pq.GetAll().ToList();
+        }
+
         public bool addOffer(Offer offer)
         {
             contexte.Offers.Add(offer);
@@ -65,6 +71,17 @@ namespace BusinessLayer
             contexte.Statuts.Add(statut);
             contexte.SaveChanges();
             return true;
+        }
+
+        public void Update()
+        {
+            contexte.SaveChanges();
+        }
+
+        public List<Employee> GetEmployeeFromSpecificOffer(int offerId)
+        {
+            OfferQuery oq = new OfferQuery(contexte);
+            return oq.GetAllEmployeeOfSpecificOffer(offerId).ToList();
         }
     }
 }

@@ -13,8 +13,6 @@ C:\Travail\ChomageLibrary\ChomageWpf\obj\Debug\ChomageWpf.csproj.GenerateResourc
 C:\Travail\ChomageLibrary\ChomageWpf\obj\Debug\ChomageWpf.csproj.CoreCompileInputs.cache
 C:\Travail\ChomageLibrary\ChomageWpf\obj\Debug\ChomageWpf.exe
 C:\Travail\ChomageLibrary\ChomageWpf\obj\Debug\ChomageWpf.pdb
-C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\Database1.mdf
-C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\Database1_log.ldf
 C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\BusinessLayer.dll
 C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\ChomageLibrary2.dll
 C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\EntityFramework.dll
@@ -34,3 +32,7 @@ C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\ControlzEx.pdb
 C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\MahApps.Metro.pdb
 C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\MahApps.Metro.xml
 C:\Travail\ChomageLibrary\ChomageWpf\obj\Debug\App.baml
+C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\EntityFramework.SqlServer.dll
+C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\EntityFramework.SqlServer.xml
+C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\BorelJamaisPresentDatabase.mdf
+C:\Travail\ChomageLibrary\ChomageWpf\bin\Debug\BorelJamaisPresentDatabase_log.ldf

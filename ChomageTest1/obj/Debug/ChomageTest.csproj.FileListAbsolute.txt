@@ -4,8 +4,6 @@ C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\Microsoft.VisualStudio.TestPlat
 C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
 C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
 C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
-C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\Database1.mdf
-C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\Database1_log.ldf
 C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\ChomageTest1.dll
 C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\ChomageTest1.pdb
 C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\BusinessLayer.dll
@@ -28,3 +26,5 @@ C:\Travail\ChomageLibrary\ChomageTest1\obj\Debug\ChomageTest1.pdb
 C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\ChomageTest1.dll.config
 C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\EntityFramework.SqlServer.dll
 C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\BorelJamaisPresentDatabase.mdf
+C:\Travail\ChomageLibrary\ChomageTest1\bin\Debug\BorelJamaisPresentDatabase_log.ldf
