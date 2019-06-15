@@ -23,6 +23,11 @@ namespace BusinessLayer.Queries
             return _contexte.Offers;
         }
 
+        public Offer GetById(int id) 
+        {
+             return _contexte.Offers.Where(o => o.Id == id).First();
+        }
+
 
         public List<Employee> GetAllEmployeeOfSpecificOffer(int offerId)
         {

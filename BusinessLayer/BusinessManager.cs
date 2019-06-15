@@ -33,9 +33,24 @@ namespace BusinessLayer
             return eq.GetAll().ToList();
         }
 
+        public Employee GetEmployeeById(int id)
+        {
+            EmployeeQuery eq = new EmployeeQuery(contexte);
+            return eq.GetById(id);
+        }
+
         public bool addEmployee(Employee employee)
         {
             contexte.Employees.Add(employee);
+            contexte.SaveChanges();
+            return true;
+        }
+        public bool setEmployeePostulation(Offer offer, Employee employee)
+        {
+            Postulation p = new Postulation();
+            p.Employee = employee;
+            p.Offer = offer;
+            contexte.Postulations.Add(p);
             contexte.SaveChanges();
             return true;
         }
@@ -46,11 +61,24 @@ namespace BusinessLayer
             return oq.GetAll().ToList();
         }
 
+        public Offer GetOfferById(int id)
+        {
+            OfferQuery oq = new OfferQuery(contexte);
+            return oq.GetById(id);
+        }
+
         public List<Postulation> GetAllPostulation()
         {
             PostulationQuery pq = new PostulationQuery(contexte);
             return pq.GetAll().ToList();
         }
+
+        public List<Postulation> GetPostulationByEmployee(Employee employee)
+        {
+            PostulationQuery pq = new PostulationQuery(contexte);
+            return pq.GetByEmployee(employee).ToList();
+        }
+        
 
         public bool addOffer(Offer offer)
         {

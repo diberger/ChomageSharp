@@ -23,5 +23,10 @@ namespace BusinessLayer.Queries
             return _contexte.Postulations;
         }
 
+        public IQueryable<Postulation> GetByEmployee(Employee employee)
+        {
+            return _contexte.Postulations.Where(p => p.EmployeeId == employee.Id);
+        }
+
     }
 }

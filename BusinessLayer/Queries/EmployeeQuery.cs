@@ -22,5 +22,10 @@ namespace BusinessLayer.Queries
         {
             return _contexte.Employees;
         }
+
+        public Employee GetById(int id)
+        {
+            return _contexte.Employees.Where(e => e.Id == id).First();
+        }
     }
 }
