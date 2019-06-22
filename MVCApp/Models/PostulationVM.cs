@@ -14,6 +14,10 @@ namespace MVCApp.Models
         public PostulationVM()
         {
             this._postulation = new Postulation();
+        }
+
+        public void GeneratePostulationEntityFromSelf()
+        {
             this._postulation.Date = this.Date;
             this._postulation.Status = this.StatutId;
             this._postulation.OfferId = this.OfferId;

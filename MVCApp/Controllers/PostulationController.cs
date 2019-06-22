@@ -38,9 +38,11 @@ namespace MVCApp.Controllers
         [HttpPost]
         public ActionResult ApplyForm(PostulationVM postulationVM)
         {
+            postulationVM.GeneratePostulationEntityFromSelf();
             BusinessManager businessManager = BusinessManager.Instance;
             businessManager.addPostulation(postulationVM.getPostulation());
-            return RedirectToAction("PostulationList");
+
+            return RedirectToAction("List");
         }
 
     }

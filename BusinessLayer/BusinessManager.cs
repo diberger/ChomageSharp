@@ -90,6 +90,8 @@ namespace BusinessLayer
         public bool addPostulation(Postulation postulation)
         {
             contexte.Postulations.Add(postulation);
+            Console.WriteLine("YLKSDFJGDFSJKGNJSDFKJGNSD");
+            Console.WriteLine("YOLO" + postulation.Date.ToString());
             contexte.SaveChanges();
             return true;
         }
