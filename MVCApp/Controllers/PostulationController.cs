@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using ChomageLibrary.Entity;
 using System.Web.Mvc;
 using MVCApp.Models;
+using System.Data;
 
 namespace MVCApp.Controllers
 {
@@ -20,13 +21,27 @@ namespace MVCApp.Controllers
 
             return View(postulationListVM);
         }
-        public ActionResult Apply(Offer offer)
+        public ActionResult ApplyForm(int offerId)
         {
             BusinessManager businessManager = BusinessManager.Instance;
+            List<Statut> statuts = businessManager.GetAllStatut();
             Employee currentEmployee = businessManager.GetEmployeeById(1);
-            businessManager.setEmployeePostulation(offer, currentEmployee);
+            SelectList items = new SelectList(statuts, "Label", "Label");
 
-            return RedirectToRoute("PostulationList");
+            ViewBag.StatutList = items;
+            ViewBag.OfferId = offerId;
+            ViewBag.EmployeeId = currentEmployee.Id;
+            return View();
         }
+
+
+        [HttpPost]
+        public ActionResult ApplyForm(PostulationVM postulationVM)
+        {
+            BusinessManager businessManager = BusinessManager.Instance;
+            businessManager.addPostulation(postulationVM.getPostulation());
+            return RedirectToAction("PostulationList");
+        }
+
     }
 }

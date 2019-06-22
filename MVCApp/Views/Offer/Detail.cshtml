@@ -10,6 +10,6 @@
         <h5 class="card-title">@Model.Title</h5>
         <h6 class="card-subtitle mb-2 text-muted">@Model.Salary  €</h6>
         <p class="card-text">@Model.Description</p>
-        @Html.RouteLink("Postuler", "PostulationApply", new { offer = Model })
+        @Html.RouteLink("Postuler", "ApplyForm", new { offerId = Model.Id })
     </div>
 </div>

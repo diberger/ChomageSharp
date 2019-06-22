@@ -23,5 +23,6 @@ namespace ChomageLibrary.Entity
         public string Label { get; set; }
 
         public ICollection<Offer> Offers { get; set; }
+
     }
 }

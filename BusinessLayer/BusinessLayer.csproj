@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessManager.cs" />
+    <Compile Include="Queries\StatusQuery.cs" />
     <Compile Include="Queries\PostulationQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queries\OfferQuery.cs" />

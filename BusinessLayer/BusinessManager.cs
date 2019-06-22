@@ -45,11 +45,11 @@ namespace BusinessLayer
             contexte.SaveChanges();
             return true;
         }
-        public bool setEmployeePostulation(Offer offer, Employee employee)
+        public bool setEmployeePostulation(int offerId, Employee employee)
         {
             Postulation p = new Postulation();
             p.Employee = employee;
-            p.Offer = offer;
+            p.Offer = GetOfferById(offerId);
             contexte.Postulations.Add(p);
             contexte.SaveChanges();
             return true;
@@ -110,6 +110,12 @@ namespace BusinessLayer
         {
             OfferQuery oq = new OfferQuery(contexte);
             return oq.GetAllEmployeeOfSpecificOffer(offerId).ToList();
+        }
+
+        public List<Statut> GetAllStatut()
+        {
+            StatusQuery sq = new StatusQuery(contexte);
+            return sq.GetAll().ToList();
         }
     }
 }
