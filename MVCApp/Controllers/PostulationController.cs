@@ -14,9 +14,9 @@ namespace MVCApp.Controllers
         {
             BusinessManager businessManager = BusinessManager.Instance;
             Employee currentEmployee = businessManager.GetEmployeeById(1);
-            List<Postulation> offers = businessManager.GetPostulationByEmployee(currentEmployee);
+            List<Postulation> postulations = businessManager.GetPostulationByEmployee(currentEmployee);
             List<PostulationVM> postulationVMs = new List<PostulationVM>();
-            offers.ForEach((elt) => postulationVMs.Add(new PostulationVM(elt)));
+            postulations.ForEach((elt) => postulationVMs.Add(new PostulationVM(elt)));
             PostulationListVM postulationListVM = new PostulationListVM(postulationVMs);
 
             return View(postulationListVM);

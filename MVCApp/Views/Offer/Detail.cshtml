@@ -4,12 +4,10 @@
 }
 
 <h2>Offer Detail</h2>
-
-<div class="card" style="width: 18rem;">
-    <div class="card-body">
-        <h5 class="card-title">@Model.Title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">@Model.Salary  €</h6>
-        <p class="card-text">@Model.Description</p>
-        @Html.RouteLink("Postuler", "ApplyForm", new { offerId = Model.Id })
+<div class="container">
+    <div class="row">
+        @{
+            Html.RenderPartial("_OffreDetail", Model, ViewData);
+        }
     </div>
 </div>

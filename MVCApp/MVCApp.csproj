@@ -208,6 +208,7 @@
     <Content Include="Views\Error\Index.cshtml" />
     <Content Include="Views\Postulation\List.cshtml" />
     <Content Include="Views\Postulation\ApplyForm.cshtml" />
+    <Content Include="Views\Shared\_OffreDetail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
