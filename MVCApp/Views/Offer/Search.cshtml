@@ -1,0 +1,21 @@
+﻿@model MVCApp.Models.OfferListVM 
+
+@{
+    ViewBag.Title = "Search Result";
+}
+
+<h2>Search Result</h2>
+<div class="container">
+    <div class="row">
+        @foreach (var offer in Model.OfferVMs)
+        {
+            Html.RenderPartial("_OffreDetail", offer);
+        }
+        @{ 
+            if(Model.OfferVMs.Count == 0)
+            {
+                <p>Pas d'offre pas de chocolat</p>
+            }
+        }
+    </div>
+</div>

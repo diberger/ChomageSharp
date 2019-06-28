@@ -12,13 +12,13 @@
         <fieldset>
             <legend>Postuler</legend>
 
-            <div>
+            <div class="col-10">
                 @Html.LabelFor(model => model.Date)
                 @Html.TextBoxFor(model => model.Date, new { @class = "form-control datepicker", placeholder = "Entrez une date" })
                 @Html.ValidationMessageFor(model => model.Date)
             </div>
 
-            <div class="col-md-10">  
+            <div class="col-10">  
                @Html.DropDownListFor(model => model.StatutId, (SelectList)ViewBag.StatutList, string.Empty)  
                @Html.ValidationMessageFor(model => model.StatutId, "", new { @class = "text-danger" })  
             </div>  
@@ -26,7 +26,7 @@
             <br />
             @Html.HiddenFor(model => model.OfferId, new { Value = ViewBag.OfferId })
             @Html.HiddenFor(model => model.EmployeeId, new { Value = ViewBag.EmployeeId })
-            <input type="submit" value="Ajouter" />
+            <input class="col-10" type="submit" value="Ajouter" />
         </fieldset>
     }
 

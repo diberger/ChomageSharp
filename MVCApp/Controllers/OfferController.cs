@@ -27,7 +27,25 @@ namespace MVCApp.Controllers
                 Offer offer = businessManager.GetOfferById(id);
                 OfferVM offerVM = new OfferVM(offer);
                 return View(offerVM);
-            } catch (Exception e)
+            }
+            catch (Exception e)
+            {
+                return RedirectToRoute("Error");
+            }
+        }
+        public ActionResult Search(String search)
+        {
+            try
+            {
+                BusinessManager businessManager = BusinessManager.Instance;
+                List<Offer> offers = businessManager.GetSearchOffer(search);
+                List<OfferVM> offerVMs = new List<OfferVM>();
+                offers.ForEach((elt) => offerVMs.Add(new OfferVM(elt)));
+                OfferListVM offerListVM = new OfferListVM(offerVMs);
+
+                return View(offerListVM);
+            }
+            catch (Exception e)
             {
                 return RedirectToRoute("Error");
             }

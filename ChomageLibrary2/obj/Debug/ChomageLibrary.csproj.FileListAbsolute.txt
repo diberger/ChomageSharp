@@ -26,3 +26,17 @@ C:\Users\hylow\Desktop\ChomageSharp\ChomageLibrary2\obj\Debug\ChomageLibrary.csp
 C:\Users\hylow\Desktop\ChomageSharp\ChomageLibrary2\obj\Debug\ChomageLibrary.csproj.CopyComplete
 C:\Users\hylow\Desktop\ChomageSharp\ChomageLibrary2\obj\Debug\ChomageLibrary2.dll
 C:\Users\hylow\Desktop\ChomageSharp\ChomageLibrary2\obj\Debug\ChomageLibrary2.pdb
+C:\Travail\ChomageSharp\ChomageLibrary2\bin\Debug\BorelJamaisPresentDatabase.mdf
+C:\Travail\ChomageSharp\ChomageLibrary2\bin\Debug\BorelJamaisPresentDatabase_log.ldf
+C:\Travail\ChomageSharp\ChomageLibrary2\bin\Debug\ChomageLibrary2.dll.config
+C:\Travail\ChomageSharp\ChomageLibrary2\bin\Debug\ChomageLibrary2.dll
+C:\Travail\ChomageSharp\ChomageLibrary2\bin\Debug\ChomageLibrary2.pdb
+C:\Travail\ChomageSharp\ChomageLibrary2\bin\Debug\EntityFramework.dll
+C:\Travail\ChomageSharp\ChomageLibrary2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Travail\ChomageSharp\ChomageLibrary2\bin\Debug\EntityFramework.xml
+C:\Travail\ChomageSharp\ChomageLibrary2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Travail\ChomageSharp\ChomageLibrary2\obj\Debug\ChomageLibrary.csprojAssemblyReference.cache
+C:\Travail\ChomageSharp\ChomageLibrary2\obj\Debug\ChomageLibrary.csproj.CoreCompileInputs.cache
+C:\Travail\ChomageSharp\ChomageLibrary2\obj\Debug\ChomageLibrary.csproj.CopyComplete
+C:\Travail\ChomageSharp\ChomageLibrary2\obj\Debug\ChomageLibrary2.dll
+C:\Travail\ChomageSharp\ChomageLibrary2\obj\Debug\ChomageLibrary2.pdb

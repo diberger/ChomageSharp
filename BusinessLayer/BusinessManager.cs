@@ -66,6 +66,11 @@ namespace BusinessLayer
             OfferQuery oq = new OfferQuery(contexte);
             return oq.GetById(id);
         }
+        public List<Offer> GetSearchOffer(String search)
+        {
+            OfferQuery oq = new OfferQuery(contexte);
+            return oq.GetByName(search);
+        }
 
         public List<Postulation> GetAllPostulation()
         {
@@ -90,8 +95,6 @@ namespace BusinessLayer
         public bool addPostulation(Postulation postulation)
         {
             contexte.Postulations.Add(postulation);
-            Console.WriteLine("YLKSDFJGDFSJKGNJSDFKJGNSD");
-            Console.WriteLine("YOLO" + postulation.Date.ToString());
             contexte.SaveChanges();
             return true;
         }

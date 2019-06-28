@@ -23,6 +23,12 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Offers", "List", "Offer")</li>
                     <li>@Html.ActionLink("My Postulations", "List", "Postulation")</li>
+                    <li>
+                        <form action="/Offer/Search" method="post">
+                            <input type="text" onfocus="this.value='';" name="search" value="Rechercher..." size="15">
+                            <input type="submit" value="Rechercher">
+                        </form>
+                    </li>
                 </ul>
             </div>
         </div>

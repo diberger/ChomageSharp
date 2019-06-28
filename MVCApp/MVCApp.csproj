@@ -209,6 +209,7 @@
     <Content Include="Views\Postulation\List.cshtml" />
     <Content Include="Views\Postulation\ApplyForm.cshtml" />
     <Content Include="Views\Shared\_OffreDetail.cshtml" />
+    <Content Include="Views\Offer\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

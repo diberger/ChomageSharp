@@ -23,9 +23,14 @@ namespace BusinessLayer.Queries
             return _contexte.Offers;
         }
 
-        public Offer GetById(int id) 
+        public Offer GetById(int id)
         {
-             return _contexte.Offers.Where(o => o.Id == id).First();
+            return _contexte.Offers.Where(o => o.Id == id).First();
+        }
+
+        public List<Offer> GetByName(String search)
+        {
+            return _contexte.Offers.Where(o => o.Title.Contains(search)).ToList();
         }
 
 

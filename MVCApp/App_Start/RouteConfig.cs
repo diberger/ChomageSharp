@@ -26,10 +26,16 @@ namespace MVCApp
             );
 
             routes.MapRoute(
+                name: "Search",
+                url: "Offer/Search",
+                defaults: new { controller = "Offer", action = "Search", search = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
                 name: "ApplyForm",
                 url: "Postulation/ApplyForm/{offerId}",
                 defaults: new { controller = "Postulation", action = "ApplyForm", offerId = UrlParameter.Optional }
-          );
+            );
 
             routes.MapRoute(
                 name: "PostulationList",
